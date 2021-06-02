@@ -44,7 +44,7 @@ canvas.draw()
 canvas.get_tk_widget().grid(row=0, column=0)
 
 #putting dope image on the grid
-image = Image.open("logo1.png")
+image = Image.open("watchdoge-logo.png")
 photo = ImageTk.PhotoImage(image.resize((550,250),Image.ANTIALIAS))
 
 label = Label(bottomFrame,image=photo)
